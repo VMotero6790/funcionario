@@ -1,0 +1,27 @@
+<%- include('includes/head') %>
+<%- include('includes/Nav') %>
+   <div class="contaner">
+     <div class="row">
+       <div class="col-lg-2"></div>
+       <div class="col-lg-8 my-3">
+         <h1 class="text-center">cadastro</h1>
+         <p class="text-center lead">criar ou editar contato de funcionários</p>
+         <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Nome</label>
+          <input type="text" class="form-control" name="nome" id="formGroupExampleInput">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">idade</label>
+          <input type="number" class="form-control" name="idade" id="formGroupExampleInput2">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Cargo</label>
+          <input type="text" class="form-control" name="cargo" id="formGroupExampleInput">
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Salvar</button>
+        </div>
+       <div class="col-lg-2"></div>
+     </div>
+   </div>
+<%- include('includes/footer') %>
